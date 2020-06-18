@@ -1,0 +1,92 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ddd;
+    color: #666;
+}
+header {
+    display: flex;
+    width:50%;
+    height: 35em;
+    margin: auto;
+    justify-content: space-around;
+    flex-direction: column;
+    word-wrap: wrap;
+    align-items: center;
+    margin-bottom: 2.5em;
+    font-size: 1.2em;
+    background-color: #fff;
+    text-align: justify;
+    margin-top: 2.5em;
+    border-radius: 15px;
+    box-shadow: 2px 2px 1px #666;
+}
+.Tim_Berners-Lee {
+    border-radius: 100%;
+    border: 4px solid #ccc;
+}
+.first_spans {
+    font-weight: 900;
+}
+p {
+    margin-top: -0.5em;
+    margin-left: 1em;
+    margin-right: 1.8em;
+}
+h1 {
+    margin-bottom: -0.2em;
+    color: #f52;
+}
+/*Nav*/
+Nav {
+    display: flex;
+    width: 50%;
+    height: 10em;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 1px #666;
+}
+
+.facebook_icon, .linkedin_icon, .twitter_icon {
+    color: gray;
+    text-decoration: none;
+}
+
+/*Section*/
+
+section {
+    display: flex;
+    width: 50%;
+    height: 85em;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2.5em;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 1px #666;
+}
+.second_span {
+    background-color: #bbb;
+}
+.first_movie, .second_movie, .third_movie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.first_movie_image, .second_movie_image, .third_movie_image {
+    margin: 0 1.3em 0 1.3em;
+}
+.first_movie_text, .second_movie_text, .third_movie_text {
+    margin-top: 1.6em;
+    line-height: 1.7em;
+    margin-right: 1.3em;
+}
+.first_movie_header, .second_movie_header, .third_movie_header {
+    margin-bottom: 1.3em;
+    margin-left: 3.5em;
+}
